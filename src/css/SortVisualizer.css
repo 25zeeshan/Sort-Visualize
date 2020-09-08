@@ -1,0 +1,18 @@
+
+.vertical-bars{
+    width: 3px;
+    display: inline-block;
+    margin: 0 1px;
+    background-color: lightblue;
+
+}
+
+.array-container{
+    margin-top:3%;
+}
+
+.buttons{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 10px;
+}

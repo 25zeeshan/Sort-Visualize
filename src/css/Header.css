@@ -1,0 +1,41 @@
+.slidecontainer {
+  width: 100%;
+  
+}
+
+.slider {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 30%;
+  height: 5px; 
+  background: #e9e2e2; 
+  outline: none; 
+  opacity: 0.8; 
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-left: 20px;
+}
+
+.slider:hover {
+  opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+  
+  appearance: none;
+  width: 15px; 
+  height: 15px; 
+  border-radius: 50%;
+  background: #4CAF50; 
+  cursor: pointer; 
+}
+
+.Navbar{
+  background-color: #964bb9;
+  color: white;
+  font-weight: 600;
+}
+
+#reversed{
+  direction: rtl;
+}
